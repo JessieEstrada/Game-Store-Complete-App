@@ -6,7 +6,7 @@ Explore our front-end application for the Game Store API. Features include easy 
 # VIDEO
 Link: https://youtu.be/S8sTx3MYlfk
 
-# Contributors
+# CONTRIBUTORS
 Bryan Tineo & Jessie Estrada
 
 # SETUP (Run application)

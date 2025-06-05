@@ -37,6 +37,7 @@ public class WebController {
 
     @GetMapping("/")
     public String returnMain(){
+        System.out.println("Main Page");
         return "./MainPage/index";
     }
 
@@ -67,7 +68,7 @@ public class WebController {
                 price = game.getPrice();
                 urlTrailerID = game.getYoutubeId();
                 model.addAttribute("quantity", game.getQuantity()); // add this line
-                
+
                 break;
             case "console":
                 Console console = serviceLayer.findConsole(id);

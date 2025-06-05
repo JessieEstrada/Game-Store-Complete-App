@@ -14,7 +14,6 @@ import java.util.Optional;
 
 @Component
 public class ServiceLayer {
-
     private ConsoleRepository consoleRepository;
 
     private FeeRepository feeRepository;
@@ -484,37 +483,4 @@ public class ServiceLayer {
         String cleanedSize = size.replaceAll("\"", ""); // remove all quotes from title
         return tShirtRepository.findAllBySize(cleanedSize);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
